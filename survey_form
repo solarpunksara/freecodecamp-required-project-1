@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+<link rel="stylesheet" href="styles.css">
+<h1 id ="title">Title</h1>
+<p id= "description">Description</p>
+
+<form id= "survey-form">
+
+
+<input id= "survey-form"></input>
+<input id= "name" type ="text"required placeholder= "name"></input>
+<input id= "email" type= "email" required placeholder = "email"></input>
+<input id= "number" type= "number"
+max = "100" min = "0" placeholder= "number"></input>
+
+
+<label id = "name-label">name-label</label>
+<label id = "email-label">email-label</label>
+<label id = "number-label">number-label</label>
+
+
+<select id=  "dropdown">
+  <option value= "choice 1">Choice 1</option>
+  <option value= "choice 2">Choice 2</option>
+</select>
+
+
+<input name= "one" type= "radio" value= "1">
+</input>
+<label>First group
+  <input name= "first" type= "radio" value= "first"></input>
+  <input name= "first" type= "radio" value= "first"></input>
+</label>
+
+<input name= "one" type= "radio" value= "2">
+</input>
+<label>Second group
+  <input name= "second" type= "radio" value= "second"></input>
+  <input name= "second" type= "radio" value= "second"></input>
+</label>
+
+<input type= "checkbox" value= "checkbox1"></input>
+<input type= "checkbox" value= "checkbox2"></input>
+
+
+<textarea></textarea>
+
+<input id= "submit" type= "submit"></input>
+
+</form>
+
+
+</html>
